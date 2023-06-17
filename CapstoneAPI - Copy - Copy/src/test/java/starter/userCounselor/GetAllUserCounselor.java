@@ -18,7 +18,7 @@ public class GetAllUserCounselor {
         RestAssured.defaultParser = Parser.JSON;
         SerenityRest
                 .given().relaxedHTTPSValidation()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY5M2YxMGM0LTAzYTEtMTFlZS1iNDRkLTAyNDJjMGE4NDAwMyIsImVtYWlsIjoid2F2YXhpeTY0OUBwZW9naS5jb20iLCJ1c2VybmFtZSI6IndhdmF4aXkxMjMiLCJhdXRoX2J5IjoiYXV0aCIsImV4cCI6MTY4NjU2MzM1Mn0.uc9Ve9CLafOkAeoGPpWiToEJBMAayfBFqpnjf3JXXm0")
+                .header("Content-Type", "application/json")
                 .get(setGetAllUserCounselorValidEndpoint());
     }
     public void receivedResponseCode200(){

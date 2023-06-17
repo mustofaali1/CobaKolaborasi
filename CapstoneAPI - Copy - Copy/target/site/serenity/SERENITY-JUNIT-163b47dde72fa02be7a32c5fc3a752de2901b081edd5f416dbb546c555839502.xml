@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="GET - All User Counselor" skipped="0" tests="2" time="11.16" timestamp="2023-06-09 09:14:32"><testcase name="Get All Counselor Valid Endpoint"/><testcase name="Get All Counselor send invalid Endpoint"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="GET - All User Counselor" skipped="0" tests="2" time="23.22" timestamp="2023-06-12 09:51:08"><testcase name="Get All Counselor Valid Endpoint"/><testcase name="Get All Counselor send invalid Endpoint"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.
