@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"login","As Admin, I Login With Valid Credential","SUCCESS","2023-06-20T02:09:07.553599+07:00[Asia/Bangkok]","0.0","21.84"
+"login","As a admin i failed login with invalid username","SUCCESS","2023-06-20T02:09:30.8185967+07:00[Asia/Bangkok]","0.0","11.54"
+"login","As a admin i failed login with invalid password","SUCCESS","2023-06-20T02:09:43.3021511+07:00[Asia/Bangkok]","0.0","11.88"
+"login","As a admin i failed login with empty username","SUCCESS","2023-06-20T02:09:56.1361279+07:00[Asia/Bangkok]","0.0","11.03"
+"login","As a admin i failed login with empty password","SUCCESS","2023-06-20T02:10:08.2691474+07:00[Asia/Bangkok]","0.0","10.0"
+"login","As a admin i failed login with empty username and password","SUCCESS","2023-06-20T02:10:19.255154+07:00[Asia/Bangkok]","0.0","9.86"
+"logout","As a admin i success logout from website","SUCCESS","2023-06-20T02:10:30.1151509+07:00[Asia/Bangkok]","0.0","13.0"
