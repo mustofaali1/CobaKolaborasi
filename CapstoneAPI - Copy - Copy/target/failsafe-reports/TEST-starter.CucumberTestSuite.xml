@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="41.958" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="26.783" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,8 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin"/>
-    <property name="tags@GetAllCounselorValidEndpoint" value="true"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\alimu\AppData\Local\Temp\surefire12722177232359268346 2023-06-12T21-50-45_721-jvmRun1 surefire1233489321388826949tmp surefire_015510589901488782452tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\alimu\AppData\Local\Temp\surefire444161501071118276 2023-06-19T12-40-20_103-jvmRun1 surefire1944777126208391462tmp surefire_01473658125878335547tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\2\CobaKolaborasi\CapstoneAPI - Copy - Copy\target\test-classes;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-core\3.5.1\serenity-core-3.5.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-model\3.5.1\serenity-model-3.5.1.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\alimu\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\alimu\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\alimu\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\alimu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\alimu\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alimu\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\alimu\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\alimu\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\alimu\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\alimu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alimu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alimu\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\alimu\.m2\repository\com\thoughtworks\xstream\xstream\1.4.19\xstream-1.4.19.jar;C:\Users\alimu\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\alimu\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\alimu\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\alimu\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\alimu\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\alimu\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\alimu\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\alimu\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\alimu\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.18\byte-buddy-agent-1.12.18.jar;C:\Users\alimu\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-reports\3.5.1\serenity-reports-3.5.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-stats\3.5.1\serenity-stats-3.5.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.5.1\serenity-reports-configuration-3.5.1.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\alimu\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\alimu\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\alimu\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\alimu\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\alimu\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\alimu\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\alimu\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\alimu\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\alimu\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\alimu\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\alimu\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\alimu\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-report-resources\3.5.1\serenity-report-resources-3.5.1.jar;C:\Users\alimu\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\alimu\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\alimu\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\alimu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.1\selenium-java-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.1\selenium-devtools-v106-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.1\selenium-devtools-v107-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.1\selenium-devtools-v108-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.1\selenium-devtools-v85-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.1\selenium-remote-driver-4.7.1.jar;C:\Users\alimu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\alimu\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\alimu\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\alimu\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alimu\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\alimu\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\alimu\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\alimu\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\alimu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alimu\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.1\selenium-manager-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.1\selenium-safari-driver-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.1\selenium-api-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.1\selenium-support-4.7.1.jar;C:\Users\alimu\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\alimu\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\alimu\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.1\selenium-json-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.1\selenium-chrome-driver-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.1\selenium-chromium-driver-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.1\selenium-firefox-driver-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.1\selenium-http-4.7.1.jar;C:\Users\alimu\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.1\selenium-edge-driver-4.7.1.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.1\selenium-ie-driver-4.7.1.jar;C:\Users\alimu\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\alimu\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\alimu\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\alimu\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\alimu\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\alimu\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\alimu\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\alimu\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\alimu\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\alimu\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\alimu\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\alimu\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\alimu\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\alimu\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\alimu\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\alimu\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\alimu\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\alimu\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\alimu\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\alimu\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\alimu\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\alimu\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\alimu\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\alimu\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\alimu\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\alimu\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\alimu\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\alimu\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\alimu\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\alimu\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\alimu\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\alimu\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-cucumber\3.5.1\serenity-cucumber-3.5.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\alimu\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-junit\7.8.1\cucumber-junit-7.8.1.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-screenplay\3.5.1\serenity-screenplay-3.5.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.5.1\serenity-screenplay-webdriver-3.5.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-ensure\3.5.1\serenity-ensure-3.5.1.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-junit\3.5.1\serenity-junit-3.5.1.jar;C:\Users\alimu\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\alimu\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\alimu\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\alimu\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\alimu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\alimu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\alimu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alimu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\alimu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\alimu\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\alimu\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alimu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alimu\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\alimu\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\alimu\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\alimu\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\alimu\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\alimu\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.5.1\serenity-rest-assured-3.5.1.jar;C:\Users\alimu\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\alimu\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\alimu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\alimu\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\alimu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alimu\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\alimu\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\alimu\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\alimu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\alimu\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\alimu\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\alimu\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\alimu\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\alimu\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,6 +28,7 @@
     <property name="jdk.module.path" value="D:\2\CobaKolaborasi\CapstoneAPI - Copy - Copy\target\CapstoneAPI-1.0-SNAPSHOT.jar"/>
     <property name="java.version.date" value="2021-04-20"/>
     <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot"/>
+    <property name="tags" value="@DeleteCounselor"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="D:\2\CobaKolaborasi\CapstoneAPI - Copy - Copy"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -64,12 +64,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Get All Counselor Valid Endpoint" classname="GET - All User Counselor" time="23.238">
-    <system-out><![CDATA[21:51:03.528 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
-21:51:05.564 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature
-21:51:05.565 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-21:51:06.744 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
-21:51:06.831 [main] INFO  - 
+  <testcase name="Delete Counselor With Valid Endpoint" classname="DELETE - Delete Counselor" time="10.535">
+    <system-out><![CDATA[12:40:29.886 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+12:40:30.580 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature
+12:40:30.580 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:30.983 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+12:40:31.043 [main] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -85,199 +85,287 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 
-21:51:06.849 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@cbd2437a
-21:51:06.855 [main] INFO  - Test Suite Started: GET - All User Counselor
-21:51:06.934 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature
-21:51:06.935 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-21:51:06.954 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@cbd2437a
-21:51:06.956 [main] INFO  - Test Suite Started: GET - All User Counselor
+12:40:31.050 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7a5b4aec
+12:40:31.055 [main] INFO  - Test Suite Started: DELETE - Delete Counselor
+12:40:31.098 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteSchedule.feature
+12:40:31.098 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteSchedule.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:31.114 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6812ed84
+12:40:31.116 [main] INFO  - Test Suite Started: Delete - Delete Schedule
+12:40:31.116 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature
+12:40:31.117 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:31.129 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@cbd2437a
+12:40:31.130 [main] INFO  - Test Suite Started: GET - All User Counselor
+12:40:31.132 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature
+12:40:31.132 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:31.145 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7a5b4aec
+12:40:31.146 [main] INFO  - Test Suite Started: DELETE - Delete Counselor
 
-@GetAllCounselor @GetAllCounselorValidEndpoint
-Scenario: Get All Counselor Valid Endpoint          &amp#27;[90m# src/test/resources/api/userCounselor/GetAllUserCounselor.feature:8&amp#27;[0m
-21:51:07.455 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature
-21:51:07.455 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-21:51:08.488 [main] INFO  - 
+@DeleteCounselor @DeleteCounselorValidEndpoint
+Scenario: Delete Counselor With Valid Endpoint        &amp#27;[90m# src/test/resources/api/adminCounselor/DeleteCounselor.feature:8&amp#27;[0m
+12:40:31.421 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature
+12:40:31.421 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:31.802 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Get All Counselor Valid Endpoint(get---all-user-counselor;get-all-counselor-valid-endpoint)
+Delete Counselor With Valid Endpoint(delete---delete-counselor;delete-counselor-with-valid-endpoint)
 --------------------------------------------------------------------------------
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET all user counselor valid endpoint&amp#27;[0m &amp#27;[90m# starter.stepDefinitions.GetAllUserCounselorSteps.setGetAllUserCounselorValidEndpoint()&amp#27;[0m
-21:51:27.647 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://13.210.163.192:8080
-21:51:27.760 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 13.210.163.192:8080
-21:51:29.277 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-21:51:29.283 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-21:51:29.284 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-21:51:29.286 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-21:51:29.287 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-21:51:29.288 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /users/counselors?topic=1&page=1&sort_by=hight_price HTTP/1.1
-21:51:29.289 [main] DEBUG org.apache.http.wire -  >> "GET /users/counselors?topic=1&page=1&sort_by=hight_price HTTP/1.1[\r][\n]"
-21:51:29.295 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
-21:51:29.295 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-21:51:29.295 [main] DEBUG org.apache.http.wire -  >> "Host: 13.210.163.192:8080[\r][\n]"
-21:51:29.296 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-21:51:29.296 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)[\r][\n]"
-21:51:29.296 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-21:51:29.296 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-21:51:29.302 [main] DEBUG org.apache.http.headers - >> GET /users/counselors?topic=1&page=1&sort_by=hight_price HTTP/1.1
-21:51:29.303 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
-21:51:29.304 [main] DEBUG org.apache.http.headers - >> Accept: */*
-21:51:29.304 [main] DEBUG org.apache.http.headers - >> Host: 13.210.163.192:8080
-21:51:29.304 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-21:51:29.304 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
-21:51:29.304 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-21:51:29.466 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-21:51:29.469 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
-21:51:29.470 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
-21:51:29.470 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 12 Jun 2023 14:51:26 GMT[\r][\n]"
-21:51:29.471 [main] DEBUG org.apache.http.wire -  << "Content-Length: 624[\r][\n]"
-21:51:29.471 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-21:51:29.473 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-21:51:29.474 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-21:51:29.474 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
-21:51:29.474 [main] DEBUG org.apache.http.headers - << Vary: Origin
-21:51:29.474 [main] DEBUG org.apache.http.headers - << Date: Mon, 12 Jun 2023 14:51:26 GMT
-21:51:29.474 [main] DEBUG org.apache.http.headers - << Content-Length: 624
-21:51:29.486 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-21:51:29.509 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
-21:51:29.511 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-21:51:29.801 [main] DEBUG org.apache.http.wire -  << "{"meta":{"message":"success get all conselor","status":200},"data":{"counselors":[{"id":"7993b562-0534-11ee-8266-0242c0a8b003","profile_picture":"https://women-center.s3.ap-southeast-1.amazonaws.com/791085f2-0534-11ee-8266-0242c0a8b003-1686143342262836306.png","name":"cobaUbah1234","topic":"self-development","price":200000,"rating":0},{"id":"08bc0b11-068c-11ee-a18f-0242c0a8d003","profile_picture":"https://women-center.s3.ap-southeast-1.amazonaws.com/082e53ba-068c-11ee-a18f-0242c0a8d003-1686290899750600279.png","name":"testing","topic":"self-development","price":190000,"rating":0}],"current_pages":1,"total_pages":1}}[\n]"
-21:51:29.806 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b28cff
-21:51:29.807 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET HTTP request with valid endpoint&amp#27;[0m  &amp#27;[90m# starter.stepDefinitions.GetAllUserCounselorSteps.sendGetHTTPRequestWithValidEndpoint()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI received valid GET HTTP response code 200&amp#27;[0m  &amp#27;[90m# starter.stepDefinitions.GetAllUserCounselorSteps.receivedValidGetHTTPResponseCode200()&amp#27;[0m
-21:51:30.195 [main] INFO  - 
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set delete counselor valid endpoint&amp#27;[0m         &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.setDeleteCounselorValidEndpoint()&amp#27;[0m
+12:40:40.191 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://13.210.163.192:8080
+12:40:40.222 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 13.210.163.192:8080
+12:40:40.930 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+12:40:40.933 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:40:40.933 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:40:40.935 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:40:40.936 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /admin/counselors/14c3021d-0729-11ee-9214-0242c0a8f003 HTTP/1.1
+12:40:40.936 [main] DEBUG org.apache.http.wire -  >> "DELETE /admin/counselors/14c3021d-0729-11ee-9214-0242c0a8f003 HTTP/1.1[\r][\n]"
+12:40:40.939 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYWRtaW4iLCJleHAiOjE2ODcyNTAyMzl9.dzRfaOSxdJDqts3ttdUjO_r_jtseShyKgm4d37WNjRk[\r][\n]"
+12:40:40.940 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+12:40:40.940 [main] DEBUG org.apache.http.wire -  >> "Host: 13.210.163.192:8080[\r][\n]"
+12:40:40.940 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:40:40.940 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)[\r][\n]"
+12:40:40.941 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+12:40:40.941 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:40:40.941 [main] DEBUG org.apache.http.headers - >> DELETE /admin/counselors/14c3021d-0729-11ee-9214-0242c0a8f003 HTTP/1.1
+12:40:40.941 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYWRtaW4iLCJleHAiOjE2ODcyNTAyMzl9.dzRfaOSxdJDqts3ttdUjO_r_jtseShyKgm4d37WNjRk
+12:40:40.941 [main] DEBUG org.apache.http.headers - >> Accept: */*
+12:40:40.941 [main] DEBUG org.apache.http.headers - >> Host: 13.210.163.192:8080
+12:40:40.941 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:40:40.942 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+12:40:40.942 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+12:40:41.276 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+12:40:41.279 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+12:40:41.279 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+12:40:41.280 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 19 Jun 2023 05:40:39 GMT[\r][\n]"
+12:40:41.280 [main] DEBUG org.apache.http.wire -  << "Content-Length: 68[\r][\n]"
+12:40:41.280 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:40:41.282 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 Internal Server Error
+12:40:41.282 [main] DEBUG org.apache.http.headers - << HTTP/1.1 500 Internal Server Error
+12:40:41.282 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+12:40:41.282 [main] DEBUG org.apache.http.headers - << Vary: Origin
+12:40:41.282 [main] DEBUG org.apache.http.headers - << Date: Mon, 19 Jun 2023 05:40:39 GMT
+12:40:41.282 [main] DEBUG org.apache.http.headers - << Content-Length: 68
+12:40:41.292 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:40:41.305 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+12:40:41.305 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+12:40:41.435 [main] DEBUG org.apache.http.wire -  << "{"meta":{"message":"counselor not found","status":500},"data":null}[\n]"
+12:40:41.437 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@702b656a
+12:40:41.438 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send delete HTTP request with valid endpoint&amp#27;[0m &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.sendDeleteHTTPRequestWithValidEndpoint()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI received valid Delete HTTP response code&amp#27;[0m     &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.receivedValidHTTPResponseCode()&amp#27;[0m
+12:40:41.674 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-Get All Counselor Valid Endpoint
+Delete Counselor With Valid Endpoint
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Get All Counselor send invalid Endpoint" classname="GET - All User Counselor" time="1.572">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <404> but was <200>.
-
-]]></failure>
+  <testcase name="Delete Counselor with id" classname="DELETE - Delete Counselor" time="1.153">
     <system-out><![CDATA[
-@GetAllCounselor @GetAllCounselorInvalidEndpoint
-Scenario: Get All Counselor send invalid Endpoint     &amp#27;[90m# src/test/resources/api/userCounselor/GetAllUserCounselor.feature:14&amp#27;[0m
-21:51:30.258 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature
-21:51:30.258 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-21:51:30.287 [main] INFO  - 
+@DeleteCounselor @DeleteCounselorInvalidId
+Scenario: Delete Counselor with id                             &amp#27;[90m# src/test/resources/api/adminCounselor/DeleteCounselor.feature:14&amp#27;[0m
+12:40:41.727 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature
+12:40:41.727 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:41.736 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Get All Counselor send invalid Endpoint(get---all-user-counselor;get-all-counselor-send-invalid-endpoint)
+Delete Counselor with id(delete---delete-counselor;delete-counselor-with-id)
 --------------------------------------------------------------------------------
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET all user counselor invalid endpoint&amp#27;[0m &amp#27;[90m# starter.stepDefinitions.GetAllUserCounselorSteps.setGetAllUserCounselorInvalidEndpoint()&amp#27;[0m
-21:51:30.573 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://13.210.163.192:8080
-21:51:30.574 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 13.210.163.192:8080
-21:51:30.934 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-21:51:30.934 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-21:51:30.934 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-21:51:30.934 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-21:51:30.935 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /users/counselors?topic=1&page=1&sort_by=hight_price HTTP/1.1
-21:51:30.935 [main] DEBUG org.apache.http.wire -  >> "GET /users/counselors?topic=1&page=1&sort_by=hight_price HTTP/1.1[\r][\n]"
-21:51:30.935 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY5M2YxMGM0LTAzYTEtMTFlZS1iNDRkLTAyNDJjMGE4NDAwMyIsImVtYWlsIjoid2F2YXhpeTY0OUBwZW9naS5jb20iLCJ1c2VybmFtZSI6IndhdmF4aXkxMjMiLCJhdXRoX2J5IjoiYXV0aCIsImV4cCI6MTY4NjU2MzM1Mn0[\r][\n]"
-21:51:30.936 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-21:51:30.936 [main] DEBUG org.apache.http.wire -  >> "Host: 13.210.163.192:8080[\r][\n]"
-21:51:30.936 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-21:51:30.936 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)[\r][\n]"
-21:51:30.937 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-21:51:30.937 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-21:51:30.937 [main] DEBUG org.apache.http.headers - >> GET /users/counselors?topic=1&page=1&sort_by=hight_price HTTP/1.1
-21:51:30.937 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY5M2YxMGM0LTAzYTEtMTFlZS1iNDRkLTAyNDJjMGE4NDAwMyIsImVtYWlsIjoid2F2YXhpeTY0OUBwZW9naS5jb20iLCJ1c2VybmFtZSI6IndhdmF4aXkxMjMiLCJhdXRoX2J5IjoiYXV0aCIsImV4cCI6MTY4NjU2MzM1Mn0
-21:51:30.937 [main] DEBUG org.apache.http.headers - >> Accept: */*
-21:51:30.937 [main] DEBUG org.apache.http.headers - >> Host: 13.210.163.192:8080
-21:51:30.938 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-21:51:30.938 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
-21:51:30.938 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-21:51:31.134 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-21:51:31.135 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
-21:51:31.137 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
-21:51:31.137 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 12 Jun 2023 14:51:28 GMT[\r][\n]"
-21:51:31.137 [main] DEBUG org.apache.http.wire -  << "Content-Length: 624[\r][\n]"
-21:51:31.138 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-21:51:31.138 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-21:51:31.138 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-21:51:31.138 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
-21:51:31.138 [main] DEBUG org.apache.http.headers - << Vary: Origin
-21:51:31.138 [main] DEBUG org.apache.http.headers - << Date: Mon, 12 Jun 2023 14:51:28 GMT
-21:51:31.138 [main] DEBUG org.apache.http.headers - << Content-Length: 624
-21:51:31.139 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-21:51:31.139 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
-21:51:31.139 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-21:51:31.146 [main] DEBUG org.apache.http.wire -  << "{"meta":{"message":"success get all conselor","status":200},"data":{"counselors":[{"id":"7993b562-0534-11ee-8266-0242c0a8b003","profile_picture":"https://women-center.s3.ap-southeast-1.amazonaws.com/791085f2-0534-11ee-8266-0242c0a8b003-1686143342262836306.png","name":"cobaUbah1234","topic":"self-development","price":200000,"rating":0},{"id":"08bc0b11-068c-11ee-a18f-0242c0a8d003","profile_picture":"https://women-center.s3.ap-southeast-1.amazonaws.com/082e53ba-068c-11ee-a18f-0242c0a8d003-1686290899750600279.png","name":"testing","topic":"self-development","price":190000,"rating":0}],"current_pages":1,"total_pages":1}}[\n]"
-21:51:31.147 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@66e12c3b
-21:51:31.147 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET HTTP request with invalid endpoint&amp#27;[0m  &amp#27;[90m# starter.stepDefinitions.GetAllUserCounselorSteps.sendGetHTTPRequestWithInvalidEndpoint()&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI received GET HTTP response code 404&amp#27;[0m          &amp#27;[90m# starter.stepDefinitions.GetAllUserCounselorSteps.receivedGetHTTPResponseCode404()&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
-Expected status code <404> but was <200>.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set delete counselor with endpoint and invalid id&amp#27;[0m    &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.setDeleteCounselorWithEndpointAndInvalidId()&amp#27;[0m
+12:40:41.863 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://13.210.163.192:8080
+12:40:41.864 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 13.210.163.192:8080
+12:40:42.418 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+12:40:42.419 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:40:42.419 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:40:42.419 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:40:42.419 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /admin/counselors/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1
+12:40:42.419 [main] DEBUG org.apache.http.wire -  >> "DELETE /admin/counselors/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYWRtaW4iLCJleHAiOjE2ODcyNTAyMzl9.dzRfaOSxdJDqts3ttdUjO_r_jtseShyKgm4d37WNjRk[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.wire -  >> "Host: 13.210.163.192:8080[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:40:42.420 [main] DEBUG org.apache.http.headers - >> DELETE /admin/counselors/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1
+12:40:42.421 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYWRtaW4iLCJleHAiOjE2ODcyNTAyMzl9.dzRfaOSxdJDqts3ttdUjO_r_jtseShyKgm4d37WNjRk
+12:40:42.421 [main] DEBUG org.apache.http.headers - >> Accept: */*
+12:40:42.421 [main] DEBUG org.apache.http.headers - >> Host: 13.210.163.192:8080
+12:40:42.421 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:40:42.421 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+12:40:42.421 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+12:40:42.812 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+12:40:42.812 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+12:40:42.812 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+12:40:42.812 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 19 Jun 2023 05:40:41 GMT[\r][\n]"
+12:40:42.812 [main] DEBUG org.apache.http.wire -  << "Content-Length: 72[\r][\n]"
+12:40:42.813 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:40:42.813 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 400 Bad Request
+12:40:42.813 [main] DEBUG org.apache.http.headers - << HTTP/1.1 400 Bad Request
+12:40:42.813 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+12:40:42.813 [main] DEBUG org.apache.http.headers - << Vary: Origin
+12:40:42.813 [main] DEBUG org.apache.http.headers - << Date: Mon, 19 Jun 2023 05:40:41 GMT
+12:40:42.813 [main] DEBUG org.apache.http.headers - << Content-Length: 72
+12:40:42.813 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:40:42.814 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+12:40:42.814 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+12:40:42.817 [main] DEBUG org.apache.http.wire -  << "{"meta":{"message":"id must be a valid uuid","status":400},"data":null}[\n]"
+12:40:42.817 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7976e536
+12:40:42.818 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send delete HTTP request with endpoint and invalid id&amp#27;[0m &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.sendDeleteHTTPRequestWithEndpointAndInvalidId()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI received delete HTTP response code 400&amp#27;[0m                &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.receivedDeleteHTTPResponseCode400()&amp#27;[0m
+12:40:42.840 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at CapstoneAPI@1.0-SNAPSHOT/starter.userCounselor.GetAllUserCounselor.lambda$receivedResponseCode404$1(GetAllUserCounselor.java:37)
-	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
-	at CapstoneAPI@1.0-SNAPSHOT/starter.userCounselor.GetAllUserCounselor.receivedResponseCode404(GetAllUserCounselor.java:37)
-	at CapstoneAPI@1.0-SNAPSHOT/starter.userCounselor.GetAllUserCounselor$ByteBuddy$YP3XUWX3.receivedResponseCode404$accessor$kWjYa5gQ(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:406)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:191)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at CapstoneAPI@1.0-SNAPSHOT/starter.userCounselor.GetAllUserCounselor$ByteBuddy$YP3XUWX3.receivedResponseCode404(Unknown Source)
-	at CapstoneAPI@1.0-SNAPSHOT/starter.stepDefinitions.GetAllUserCounselorSteps.receivedGetHTTPResponseCode404(GetAllUserCounselorSteps.java:37)
-	at âœ½.I received GET HTTP response code 404(file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/userCounselor/GetAllUserCounselor.feature:17)
-&amp#27;[0m
-21:51:31.394 [main] ERROR  - 
-  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
- |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
-   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
-   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+Delete Counselor with id
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="Delete Counselor With Invalid Endpoint" classname="DELETE - Delete Counselor" time="1.039">
+    <system-out><![CDATA[
+@DeleteCounselor @DeleteCounselorInvalidEndpoint
+Scenario: Delete Counselor With Invalid Endpoint        &amp#27;[90m# src/test/resources/api/adminCounselor/DeleteCounselor.feature:20&amp#27;[0m
+12:40:42.870 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature
+12:40:42.870 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:42.880 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Get All Counselor send invalid Endpoint
------------------------------------------------------------------------
-21:51:31.400 [main] DEBUG  - RELATED ISSUES: 
-21:51:31.772 [main] ERROR  -     Test failed at step: Received response code404
-21:51:31.774 [main] ERROR  -     1 expectation failed.Expected status code <404> but was <200>.
+Delete Counselor With Invalid Endpoint(delete---delete-counselor;delete-counselor-with-invalid-endpoint)
+--------------------------------------------------------------------------------
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set delete counselor invalid endpoint&amp#27;[0m         &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.setDeleteCounselorInvalidEndpoint()&amp#27;[0m
+12:40:42.978 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://13.210.163.192:8080
+12:40:42.978 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 13.210.163.192:8080
+12:40:43.542 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+12:40:43.542 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:40:43.543 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:40:43.543 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:40:43.543 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /admin/counselor/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1
+12:40:43.543 [main] DEBUG org.apache.http.wire -  >> "DELETE /admin/counselor/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1[\r][\n]"
+12:40:43.543 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYWRtaW4iLCJleHAiOjE2ODcyNTAyMzl9.dzRfaOSxdJDqts3ttdUjO_r_jtseShyKgm4d37WNjRk[\r][\n]"
+12:40:43.544 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+12:40:43.544 [main] DEBUG org.apache.http.wire -  >> "Host: 13.210.163.192:8080[\r][\n]"
+12:40:43.544 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:40:43.544 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)[\r][\n]"
+12:40:43.544 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+12:40:43.544 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:40:43.544 [main] DEBUG org.apache.http.headers - >> DELETE /admin/counselor/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1
+12:40:43.544 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYWRtaW4iLCJleHAiOjE2ODcyNTAyMzl9.dzRfaOSxdJDqts3ttdUjO_r_jtseShyKgm4d37WNjRk
+12:40:43.544 [main] DEBUG org.apache.http.headers - >> Accept: */*
+12:40:43.545 [main] DEBUG org.apache.http.headers - >> Host: 13.210.163.192:8080
+12:40:43.545 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:40:43.545 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+12:40:43.545 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+12:40:43.857 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 404 Not Found[\r][\n]"
+12:40:43.857 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+12:40:43.857 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+12:40:43.857 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 19 Jun 2023 05:40:42 GMT[\r][\n]"
+12:40:43.857 [main] DEBUG org.apache.http.wire -  << "Content-Length: 24[\r][\n]"
+12:40:43.858 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:40:43.858 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+12:40:43.858 [main] DEBUG org.apache.http.headers - << HTTP/1.1 404 Not Found
+12:40:43.858 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+12:40:43.858 [main] DEBUG org.apache.http.headers - << Vary: Origin
+12:40:43.858 [main] DEBUG org.apache.http.headers - << Date: Mon, 19 Jun 2023 05:40:42 GMT
+12:40:43.858 [main] DEBUG org.apache.http.headers - << Content-Length: 24
+12:40:43.858 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:40:43.859 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+12:40:43.859 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+12:40:43.862 [main] DEBUG org.apache.http.wire -  << "{"message":"Not Found"}[\n]"
+12:40:43.863 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5ad40184
+12:40:43.863 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send delete HTTP request with invalid endpoint&amp#27;[0m &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.sendDeleteHTTPRequestWithInvalidEndpoint()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI received delete HTTP response code 404&amp#27;[0m         &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.receivedDeleteHTTPResponseCode404()&amp#27;[0m
+12:40:43.883 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Delete Counselor With Invalid Endpoint
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="Delete Counselor Without Token" classname="DELETE - Delete Counselor" time="1.001">
+    <system-out><![CDATA[
+@DeleteCounselor @DeleteCounselorWithoutToken
+Scenario: Delete Counselor Without Token           &amp#27;[90m# src/test/resources/api/adminCounselor/DeleteCounselor.feature:26&amp#27;[0m
+12:40:43.909 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature
+12:40:43.910 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/2/CobaKolaborasi/CapstoneAPI%20-%20Copy%20-%20Copy/src/test/resources/api/adminCounselor/DeleteCounselor.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+12:40:43.918 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Delete Counselor Without Token(delete---delete-counselor;delete-counselor-without-token)
+--------------------------------------------------------------------------------
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set DELETE counselor with valid endpoint&amp#27;[0m &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.setDeleteCounselorWithValidEndpoint()&amp#27;[0m
+12:40:44.006 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://13.210.163.192:8080
+12:40:44.006 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 13.210.163.192:8080
+12:40:44.462 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+12:40:44.462 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:40:44.462 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+12:40:44.462 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:40:44.462 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:40:44.462 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /admin/counselor/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1
+12:40:44.463 [main] DEBUG org.apache.http.wire -  >> "DELETE /admin/counselor/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1[\r][\n]"
+12:40:44.463 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+12:40:44.463 [main] DEBUG org.apache.http.wire -  >> "Host: 13.210.163.192:8080[\r][\n]"
+12:40:44.463 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:40:44.463 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)[\r][\n]"
+12:40:44.463 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+12:40:44.463 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:40:44.463 [main] DEBUG org.apache.http.headers - >> DELETE /admin/counselor/89b50e3f-fb86-11ed-a017-5efc22537c1 HTTP/1.1
+12:40:44.463 [main] DEBUG org.apache.http.headers - >> Accept: */*
+12:40:44.464 [main] DEBUG org.apache.http.headers - >> Host: 13.210.163.192:8080
+12:40:44.464 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:40:44.464 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.11)
+12:40:44.464 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+12:40:44.860 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+12:40:44.860 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+12:40:44.860 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+12:40:44.860 [main] DEBUG org.apache.http.wire -  << "Date: Mon, 19 Jun 2023 05:40:43 GMT[\r][\n]"
+12:40:44.860 [main] DEBUG org.apache.http.wire -  << "Content-Length: 62[\r][\n]"
+12:40:44.860 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:40:44.860 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 401 Unauthorized
+12:40:44.860 [main] DEBUG org.apache.http.headers - << HTTP/1.1 401 Unauthorized
+12:40:44.861 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+12:40:44.861 [main] DEBUG org.apache.http.headers - << Vary: Origin
+12:40:44.861 [main] DEBUG org.apache.http.headers - << Date: Mon, 19 Jun 2023 05:40:43 GMT
+12:40:44.861 [main] DEBUG org.apache.http.headers - << Content-Length: 62
+12:40:44.861 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:40:44.861 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Authentication required
+12:40:44.861 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - 13.210.163.192:8080 requested authentication
+12:40:44.861 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Response contains no authentication challenges
+12:40:44.862 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+12:40:44.862 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+12:40:44.866 [main] DEBUG org.apache.http.wire -  << "{"meta":{"message":"invalid token","status":401},"data":null}[\n]"
+12:40:44.866 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3d98729a
+12:40:44.866 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send DELETE HTTP request without Token&amp#27;[0m    &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.sendDeleteHTTPRequestWithEndpoint()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI received DELETE HTTP response code 401&amp#27;[0m    &amp#27;[90m# starter.stepDefinitions.DeleteCounselorSteps.receivedDeleteHTTPResponseCode401()&amp#27;[0m
+12:40:44.886 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Delete Counselor Without Token
+----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
 </testsuite>
