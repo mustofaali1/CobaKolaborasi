@@ -10,27 +10,28 @@ public class GetAllUserCounselorSteps {
     @Steps
     GetAllUserCounselor getAllUserCounselor;
 
+    //    Valid Endpoint
     @Given("I set GET all user counselor valid endpoint")
     public void setGetAllUserCounselorValidEndpoint(){
         getAllUserCounselor.setGetAllUserCounselorValidEndpoint();
     }
     @When("I send GET HTTP request with valid endpoint")
     public void sendGetHTTPRequestWithValidEndpoint(){
-        getAllUserCounselor.sendReqValidToken();
+        getAllUserCounselor.sendReqValidEndpoint();
     }
     @Then("I received valid GET HTTP response code 200")
     public void receivedValidGetHTTPResponseCode200(){
         getAllUserCounselor.receivedResponseCode200();
     }
 
-
+    //    Invalid Endpoint
     @Given("I set GET all user counselor invalid endpoint")
     public void setGetAllUserCounselorInvalidEndpoint(){
         getAllUserCounselor.setGetAllUserCounselorInvalidEndpoint();
     }
     @When("I send GET HTTP request with invalid endpoint")
     public void sendGetHTTPRequestWithInvalidEndpoint(){
-        getAllUserCounselor.sendReqInvalidToken();
+        getAllUserCounselor.sendReqInvalidEndpoint();
     }
     @Then("I received GET HTTP response code 404")
     public void receivedGetHTTPResponseCode404(){

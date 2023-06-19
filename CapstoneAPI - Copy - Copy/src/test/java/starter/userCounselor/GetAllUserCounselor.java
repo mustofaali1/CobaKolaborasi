@@ -1,38 +1,38 @@
 package starter.userCounselor;
 
-import io.restassured.RestAssured;
-import io.restassured.parsing.Parser;
 import net.serenitybdd.rest.SerenityRest;
 
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetAllUserCounselor {
     protected static String url = "https://13.210.163.192:8080";
+    protected static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQwYWU5NTYyLTBkMjItMTFlZS04OTIzLTAyNDJhYzFlMDAwMyIsImVtYWlsIjoiaWhpbG1pZGVyaWFuQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiaXZhbmRldiIsImF1dGhfYnkiOiJhdXRoIiwiZXhwIjoxNjg3MzQ0NDc0fQ.pBUnVv7Z4mW0tCtC1VXSX6yP4h50NMB1X8m1QYxLtbU";
+
     public String setGetAllUserCounselorValidEndpoint(){
-        return url + "/users/counselors?topic=1&page=1&sort_by=hight_price";
+        return url + "/users/counselors?topic=1&sort_by=lowest_price";
     }
     public String setGetAllUserCounselorInvalidEndpoint(){
-        return url + "/users/counselor?topic=1&page=1&sort_by=hight_price";
+        return url + "/user/counselors?topic=1&sort_by=lowest_price";
     }
-    public void sendReqValidToken(){
-        RestAssured.defaultParser = Parser.JSON;
+
+    public void sendReqValidEndpoint(){
         SerenityRest
                 .given().relaxedHTTPSValidation()
-                .header("Content-Type", "application/json")
+                .auth()
+                .oauth2(token)
                 .get(setGetAllUserCounselorValidEndpoint());
     }
     public void receivedResponseCode200(){
         restAssuredThat(response -> response.statusCode(200));
     }
 
-    public void sendReqInvalidToken(){
-        RestAssured.defaultParser = Parser.JSON;
+    public void sendReqInvalidEndpoint(){
         SerenityRest
                 .given().relaxedHTTPSValidation()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY5M2YxMGM0LTAzYTEtMTFlZS1iNDRkLTAyNDJjMGE4NDAwMyIsImVtYWlsIjoid2F2YXhpeTY0OUBwZW9naS5jb20iLCJ1c2VybmFtZSI6IndhdmF4aXkxMjMiLCJhdXRoX2J5IjoiYXV0aCIsImV4cCI6MTY4NjU2MzM1Mn0")
-                .get(setGetAllUserCounselorValidEndpoint());
+                .auth()
+                .oauth2(token)
+                .get(setGetAllUserCounselorInvalidEndpoint());
     }
-
     public void receivedResponseCode404(){
         restAssuredThat(response -> response.statusCode(404));
     }
