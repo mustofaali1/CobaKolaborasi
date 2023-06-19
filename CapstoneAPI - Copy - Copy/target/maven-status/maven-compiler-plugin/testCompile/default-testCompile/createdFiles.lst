@@ -1,3 +1,5 @@
+starter\stepDefinitions\DeleteCounselorSteps.class
 starter\CucumberTestSuite.class
 starter\stepDefinitions\GetAllUserCounselorSteps.class
 starter\userCounselor\GetAllUserCounselor.class
+starter\adminCounselor\DeleteCounselor.class
